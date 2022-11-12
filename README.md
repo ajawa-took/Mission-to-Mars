@@ -26,5 +26,5 @@ splinter, beautysoup; flask, mongdb; and a tiny bit of bootstrap html.
 
  - Sometimes, the scraping code throws "stale" "not attached to document" errors. I cannot tell what makes the difference: different runs of same code sometimes throw it and somtimes don't. Closing and opening the automated browser a lot seems to help. This may have something to do with old versions of everything: at the start of the course, on the advice of TAs, I set my environment to be python3.7 while lots of latest versions of packages want 3.8.
 
- - I was not able to cleanly scrape the 4 urls to click for the hemispheres scrape. My best efforts yeild 9 objects on the webpage being scraped, of which [1], [3], [5], and [7] are the ones we want. 
+ - I was not able to cleanly scrape the 4 urls to click for the hemispheres scrape. My best efforts yeild 9 objects on the webpage being scraped, of which [1], [3], [5], and [7] are the ones we want. My code extracts those.
 
